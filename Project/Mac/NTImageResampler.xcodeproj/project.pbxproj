@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9AC2021E711B8B008F4B6A /* NTProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9AC1FE1E711A4F008F4B6A /* NTProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C9AC2031E711B8D008F4B6A /* NTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9AC1FD1E711A4F008F4B6A /* NTObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C9AC2041E711B8F008F4B6A /* NTImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9AC1FB1E711A4F008F4B6A /* NTImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C9AC2051E711B91008F4B6A /* NTImageResampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9AC1F81E711A4F008F4B6A /* NTImageResampler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C9AC1F41E711A4F008F4B6A /* NTBilinearImageResampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTBilinearImageResampler.cpp; sourceTree = "<group>"; };
+		9C9AC1F51E711A4F008F4B6A /* NTBilinearImageResampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTBilinearImageResampler.h; sourceTree = "<group>"; };
+		9C9AC1F71E711A4F008F4B6A /* NTImageResampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTImageResampler.cpp; sourceTree = "<group>"; };
+		9C9AC1F81E711A4F008F4B6A /* NTImageResampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTImageResampler.h; sourceTree = "<group>"; };
+		9C9AC1FA1E711A4F008F4B6A /* NTImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTImage.cpp; sourceTree = "<group>"; };
+		9C9AC1FB1E711A4F008F4B6A /* NTImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTImage.h; sourceTree = "<group>"; };
+		9C9AC1FC1E711A4F008F4B6A /* NTObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTObject.cpp; sourceTree = "<group>"; };
+		9C9AC1FD1E711A4F008F4B6A /* NTObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTObject.h; sourceTree = "<group>"; };
+		9C9AC1FE1E711A4F008F4B6A /* NTProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTProperty.h; sourceTree = "<group>"; };
+		9C9AC2001E711A4F008F4B6A /* NTNearestNeighbourImageResampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NTNearestNeighbourImageResampler.cpp; sourceTree = "<group>"; };
+		9C9AC2011E711A4F008F4B6A /* NTNearestNeighbourImageResampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTNearestNeighbourImageResampler.h; sourceTree = "<group>"; };
+		9CAA0BA31E70659D00950C16 /* libNTImageResampler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTImageResampler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CAA0BA01E70659D00950C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9AC1F21E711A4F008F4B6A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9C9AC1F31E711A4F008F4B6A /* Bilinear */,
+				9C9AC1F61E711A4F008F4B6A /* Common */,
+				9C9AC1F91E711A4F008F4B6A /* Generic */,
+				9C9AC1FF1E711A4F008F4B6A /* NearestNeighbour */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		9C9AC1F31E711A4F008F4B6A /* Bilinear */ = {
+			isa = PBXGroup;
+			children = (
+				9C9AC1F41E711A4F008F4B6A /* NTBilinearImageResampler.cpp */,
+				9C9AC1F51E711A4F008F4B6A /* NTBilinearImageResampler.h */,
+			);
+			path = Bilinear;
+			sourceTree = "<group>";
+		};
+		9C9AC1F61E711A4F008F4B6A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9C9AC1F71E711A4F008F4B6A /* NTImageResampler.cpp */,
+				9C9AC1F81E711A4F008F4B6A /* NTImageResampler.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9C9AC1F91E711A4F008F4B6A /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				9C9AC1FA1E711A4F008F4B6A /* NTImage.cpp */,
+				9C9AC1FB1E711A4F008F4B6A /* NTImage.h */,
+				9C9AC1FC1E711A4F008F4B6A /* NTObject.cpp */,
+				9C9AC1FD1E711A4F008F4B6A /* NTObject.h */,
+				9C9AC1FE1E711A4F008F4B6A /* NTProperty.h */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		9C9AC1FF1E711A4F008F4B6A /* NearestNeighbour */ = {
+			isa = PBXGroup;
+			children = (
+				9C9AC2001E711A4F008F4B6A /* NTNearestNeighbourImageResampler.cpp */,
+				9C9AC2011E711A4F008F4B6A /* NTNearestNeighbourImageResampler.h */,
+			);
+			path = NearestNeighbour;
+			sourceTree = "<group>";
+		};
+		9CAA0B9A1E70659D00950C16 = {
+			isa = PBXGroup;
+			children = (
+				9C9AC1F21E711A4F008F4B6A /* Source */,
+				9CAA0BA41E70659D00950C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CAA0BA41E70659D00950C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CAA0BA31E70659D00950C16 /* libNTImageResampler.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CAA0BA11E70659D00950C16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9AC2021E711B8B008F4B6A /* NTProperty.h in Headers */,
+				9C9AC2051E711B91008F4B6A /* NTImageResampler.h in Headers */,
+				9C9AC2041E711B8F008F4B6A /* NTImage.h in Headers */,
+				9C9AC2031E711B8D008F4B6A /* NTObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9CAA0BA21E70659D00950C16 /* NTImageResampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CAA0BA71E70659D00950C16 /* Build configuration list for PBXNativeTarget "NTImageResampler" */;
+			buildPhases = (
+				9CAA0B9F1E70659D00950C16 /* Sources */,
+				9CAA0BA01E70659D00950C16 /* Frameworks */,
+				9CAA0BA11E70659D00950C16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTImageResampler;
+			productName = NTImageResampler;
+			productReference = 9CAA0BA31E70659D00950C16 /* libNTImageResampler.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CAA0B9B1E70659D00950C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Entropy;
+				TargetAttributes = {
+					9CAA0BA21E70659D00950C16 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9CAA0B9E1E70659D00950C16 /* Build configuration list for PBXProject "NTImageResampler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CAA0B9A1E70659D00950C16;
+			productRefGroup = 9CAA0BA41E70659D00950C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CAA0BA21E70659D00950C16 /* NTImageResampler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CAA0B9F1E70659D00950C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CAA0BA51E70659D00950C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CAA0BA61E70659D00950C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CAA0BA81E70659D00950C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "../../Output/Mac/NTImageResampler$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Output/Mac/NTImageResampler/include;
+			};
+			name = Debug;
+		};
+		9CAA0BA91E70659D00950C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "../../Output/Mac/NTImageResampler$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Output/Mac/NTImageResampler/include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CAA0B9E1E70659D00950C16 /* Build configuration list for PBXProject "NTImageResampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CAA0BA51E70659D00950C16 /* Debug */,
+				9CAA0BA61E70659D00950C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CAA0BA71E70659D00950C16 /* Build configuration list for PBXNativeTarget "NTImageResampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CAA0BA81E70659D00950C16 /* Debug */,
+				9CAA0BA91E70659D00950C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CAA0B9B1E70659D00950C16 /* Project object */;
+}
